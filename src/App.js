@@ -1,5 +1,6 @@
 import { useState, useCallback } from "react";
 import { ChildComponent } from "./ChildComponent";
+import { CssModule } from "./components/CssModule";
 import { InlineStyle } from "./components/InlineStyle";
 
 import "./styles.css";
@@ -25,6 +26,7 @@ export default function App() {
       <button onClick={onClickButton}>表示</button>
       <ChildComponent isVisible={isVisibleChild} onClickClose={onClickClose} />
       <InlineStyle />
+      <CssModule />
     </>
   );
 }
