@@ -1,10 +1,6 @@
 import { useState, useCallback } from "react";
 import { ChildComponent } from "./ChildComponent";
-import { CssModule } from "./components/CssModule";
-import { InlineStyle } from "./components/InlineStyle";
-import { StyledJsx } from "./components/StyledJsx";
-import { StyledComponent } from "./components/StyledComponent";
-import { Emotion } from "./components/Emotion";
+import { ReactCss } from "./components/ReactCss";
 import "./styles.css";
 
 export default function App() {
@@ -27,11 +23,7 @@ export default function App() {
       <br />
       <button onClick={onClickButton}>表示</button>
       <ChildComponent isVisible={isVisibleChild} onClickClose={onClickClose} />
-      <InlineStyle />
-      <CssModule />
-      <StyledJsx />
-      <StyledComponent />
-      <Emotion />
+      <ReactCss />
     </>
   );
 }
