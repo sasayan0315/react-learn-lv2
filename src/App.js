@@ -34,7 +34,7 @@ export default function App() {
         <br />
         <Link to="/page2">page2</Link>
         <br />
-        <switch>
+        <Switch>
           <Route exact path="/">
             <Home />
           </Route>
@@ -57,7 +57,7 @@ export default function App() {
           <Route path="/page2">
             <Page2 />
           </Route>
-        </switch>
+        </Switch>
       </BrowserRouter>
     </>
   );
