@@ -4,7 +4,7 @@ import { Page1Detail2 } from "../components/Page/Page1/Page1Detail2";
 
 export const page1Routes = [
   {
-    path: "",
+    path: "/",
     exact: true,
     children: <Page1 />
   },
