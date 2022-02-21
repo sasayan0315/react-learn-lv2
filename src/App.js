@@ -1,5 +1,5 @@
 import { Link, BrowserRouter } from "react-router-dom";
-import { MyRouter } from "./components/Router/MyRouter";
+import { MyRouter } from "./router/MyRouter";
 import "./styles.css";
 
 export default function App() {

@@ -1,9 +1,9 @@
 import { Switch, Route } from "react-router-dom";
 
-import { Home } from "../Page/Home";
-import { Page2 } from "../Page/Page2";
-import { ReactCss } from "../Css/ReactCss";
-import { CallBack } from "../Callback/CallBack";
+import { Home } from "../components/Page/Home";
+import { Page2 } from "../components/Page/Page2";
+import { ReactCss } from "../components/Css/ReactCss";
+import { CallBack } from "../components/Callback/CallBack";
 import { page1Routes } from "./Page1Router";
 
 export const MyRouter = () => {
